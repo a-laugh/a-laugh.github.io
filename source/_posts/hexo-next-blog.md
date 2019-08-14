@@ -1,5 +1,10 @@
 ---
 title: 使用Hexo和NexT搭建博客
+categories:
+- 工具
+tags:
+- 工具
+- 博客
 ---
 曾用过多个在线博客，也尝试过 org-mode ，甚至写过一个能从 POD 文档生成静态博客的小工具，但无可否认 Hexo+NexT 还是最简洁漂亮。
 
