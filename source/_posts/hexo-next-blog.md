@@ -1,12 +1,12 @@
 ---
-title: 使用Hexo和NexT搭建博客
+title: 使用 Hexo 和 NexT 搭建博客
 categories:
 - 工具
 tags:
 - 工具
 - 博客
 ---
-曾用过多个在线博客，也尝试过 org-mode ，甚至写过一个能从 POD 文档生成静态博客的小工具，但无可否认 Hexo+NexT 还是最简洁漂亮。
+曾用过多个在线博客，也尝试过 org-mode ，甚至写过一个能从 POD 文档生成静态博客的小工具，但无可否认还是 Hexo+NexT 最简洁漂亮 ;-)
 
 ## 安装
 
@@ -185,7 +185,7 @@ npm install hexo-generator-feed --save
 修改**站点配置文件**，追加 feed 信息
 
 ```
-# 设置RSS
+# 设置 RSS
 feed:
   type: rss2
   path: rss2.html
@@ -218,6 +218,27 @@ permalink_defaults:
 ```
 
 参考: [Github+Hexo一站式部署个人博客](https://chloneda.github.io/blog/hexo-blog/)
+
+### 设置评论
+修改**主题配置文件**，查找关键词 Valine ，并修改评论配置
+
+```
+# Valine.
+# You can get your appid and appkey from https://leancloud.cn
+# more info please open https://valine.js.org
+valine:
+  enable: true
+  appid: BSGB3XyPlFvU9hc9NCKWOs4l-MdYXbMMI # your leancloud application appid
+  appkey: zGMgeVbw0YwY5IWkycywg4bn # your leancloud application appkey
+  notify: false # mail notifier , https://github.com/xCss/Valine/wiki
+  verify: false # Verification code
+  placeholder: 你是怎么想的？ # comment box placeholder
+  avatar: mm # gravatar style
+  guest_info: nick,mail,link # custom comment header
+  pageSize: 10 # pagination size
+```
+
+参考: [为你的 Hexo 加上评论系统- Valine](https://blog.csdn.net/blue_zy/article/details/79071414)
 
 ## 部署
 
@@ -263,4 +284,13 @@ git push origin hexo
 echo "=====>Finish!<====="
 ```
 
-参考: [Github+Hexo一站式部署个人博客](https://chloneda.github.io/blog/hexo-blog/)
+参考: [Github+Hexo 一站式部署个人博客](https://chloneda.github.io/blog/hexo-blog/)
+
+## 恢复
+本地资料丢失或其他主机搭建博客步骤
+
+- 拷贝 hexo 分支源码到本地: git clone -b hexo git@github.com:a-laugh/a-laugh.github.io.git
+- 安装 hexo 及各类插件
+- 本地安装调试
+
+参考: [Github+Hexo 一站式部署个人博客](https://chloneda.github.io/blog/hexo-blog/)
