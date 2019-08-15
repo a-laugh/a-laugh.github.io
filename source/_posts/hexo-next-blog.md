@@ -238,7 +238,7 @@ valine:
   pageSize: 10 # pagination size
 ```
 
-参考: [为你的 Hexo 加上评论系统- Valine](https://blog.csdn.net/blue_zy/article/details/79071414)
+参考: [为你的 Hexo 加上评论系统-Valine](https://blog.csdn.net/blue_zy/article/details/79071414)
 
 ## 部署
 
