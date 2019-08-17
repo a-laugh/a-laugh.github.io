@@ -81,7 +81,7 @@ scheme: Mist
 ```
 
 ### 设置语言
-修改**站点配置文件**，查找关键词 language ，并修改语言为 zh-Hans
+修改**站点配置文件**，查找关键词 language ，并修改语言为 zh-CN
 
 ```
 language: zh-Hans
