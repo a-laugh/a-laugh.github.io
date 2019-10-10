@@ -10,4 +10,4 @@ tags:
 这是本文的一个引子：[知识消化系统 v1](https://emacs-china.org/t/v1/8218) ;-)
 
 ## 简单思考 ##
-![](/images/知识消化系统.png)
+![](/images/knowledge-grow-system.png)
